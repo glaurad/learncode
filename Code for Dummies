@@ -1,0 +1,20 @@
+
+a - element used to anchor
+ <a href='https://freecodecamp.org'></a>
+
+links
+<p>Click here to view more <a href="https://freecatphotoapp.com">cat photos</a>.</p>
+
+
+href (attribute) -  
+
+attribute - activated with (attribute)="attribute value"
+
+target attribute
+_blank - example below. Ask alex how tf this makes sense 
+```
+      <p>Click here to view more <a href="https://freecatphotoapp.com"target=_blank>cat photos</a>.</p>
+```
+ <p>CLick here to view more <a href="https://freecatphotoapp.com">cat photoss</a>.</p>
+
+Links 
