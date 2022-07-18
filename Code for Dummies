@@ -41,3 +41,8 @@ fieldset - The fieldset element is used to group related inputs and labels toget
 Ask Alex why this doesn't neet a closing tag:
 <legend>What's your cat's personality?</legend>
             <input type="checkbox"> Loving 
+One more thing. You should allow people to use their native language. Tell the browser to encode multiple languages by adding a meta element as a child of the head element. Set its charset attribute to UTF-8:
+<head>
+    <meta charset="UTF-8">
+    <title>CatPhotoApp</title>
+  </head>
