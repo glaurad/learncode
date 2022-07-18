@@ -18,3 +18,12 @@ _blank - example below. Ask alex how tf this makes sense
  <p>CLick here to view more <a href="https://freecatphotoapp.com">cat photoss</a>.</p>
 
 Links 
+https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-14 
+
+section - element
+
+Image with alt example
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate">
+
+Button with type and text example
+<button type="Submit">Submit</button>
