@@ -46,3 +46,18 @@ One more thing. You should allow people to use their native language. Tell the b
     <meta charset="UTF-8">
     <title>CatPhotoApp</title>
   </head>
+
+	7/19/22
+	Center Heading:
+	element {property: value;} ex:
+	<style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+		another example:
+		<style>
+      h1, h2, p {
+        text-align: center;
+      }
+    </style>
