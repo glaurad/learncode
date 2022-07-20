@@ -28,6 +28,7 @@ Image with alt example
 Button with type and text example
 <button type="Submit">Submit</button>
 
+radio - bubble selector that switches back and forth
 Have alex explain this:
 If you select the Indoor radio button and submit the form, the form data for the button is based on its name and value attributes. Since your radio buttons do not have a value attribute, the form data will include indoor-outdoor=on, which is not useful when you have multiple buttons.
 
@@ -41,6 +42,7 @@ fieldset - The fieldset element is used to group related inputs and labels toget
 Ask Alex why this doesn't neet a closing tag:
 <legend>What's your cat's personality?</legend>
             <input type="checkbox"> Loving 
+						Alex said that input is self closing
 One more thing. You should allow people to use their native language. Tell the browser to encode multiple languages by adding a meta element as a child of the head element. Set its charset attribute to UTF-8:
 <head>
     <meta charset="UTF-8">
@@ -49,7 +51,8 @@ One more thing. You should allow people to use their native language. Tell the b
 
 	7/19/22
 	Center Heading:
-	element {property: value;} ex:
+	"element/selector" {property: value;} ex:
+ ^^ can add more properties to selectors after semicolon, just code on a new line for clean code
 	<style>
       h1 {
         text-align: center;
@@ -61,3 +64,30 @@ One more thing. You should allow people to use their native language. Tell the b
         text-align: center;
       }
     </style>
+
+		You have styled three elements by writing CSS inside the style tags. This works, but since there will be many more styles, it's best to put all the styles in a separate file and link to it.
+
+We have created a separate styles.css file for you and switched the editor view to that file. You can change between files with the tabs at the top of the editor.
+
+Start by rewriting the styles you have created into the styles.css file. Make sure to exclude the opening and closing style tags.
+
+<style>
+  h1, h2, p {
+    text-align: center;
+  }
+  </style>
+
+Mobile device 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+/* comment here */ - a way to not have code show up or executed
+
+Can change width with pixels (px) or percentage (%)
+
+A class selector is defined by a name with a dot directly in front of it, like this
+.class-name {
+  styles
+}
+
+To apply the class's styling to the div element, add a class attribute to the div element's opening tag and set its value to menu. 
+Ex: <div class="menu" />
