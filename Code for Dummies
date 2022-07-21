@@ -125,3 +125,5 @@ You change properties of a link when the mouse hovers over them by using a pseud
 
 You change properties of a link when the link is actually being clicked by using a pseudo-selector that looks like a:active { propertyName: propertyValue; }.
 
+To center your marker on the page, set its margin property to auto. This sets margin-top, margin-right, margin-bottom, and margin-left all to auto.
+
