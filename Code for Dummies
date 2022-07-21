@@ -104,3 +104,4 @@ Add the fallback font serif after the Impact font.
 
 Notice how the thickness of the line looks bigger? The default value of a property named border-width is 1px for all edges of hr elements. By changing the border to the same color as the background, the total height of the line is 5px (3px plus the top and bottom border width of 1px).
 
+a:visited You change properties of a link when the link has actually been visited by using a pseudo-selector that looks like a:visited { propertyName: propertyValue; }.{ propertyName: propertyValue; }
