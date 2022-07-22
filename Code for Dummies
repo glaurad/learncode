@@ -223,3 +223,14 @@ ex: border-left-width: 10px;
 
 Borders have several styles to choose from. You can make your border a solid line, but you can also use a dashed or dotted line if you prefer. Solid border lines are probably the most common.
 ex: border-left-style: solid;
+
+Your border should be visible now. If no color is set, black is used by default.
+
+But to make your code more readable, it's better to set the border color explicitly.
+ex: border-left-color: black;
+
+The border-left shorthand property lets you to set the left border's width, style, and color at the same time.
+
+Here is the syntax:
+
+border-left: width style color;
