@@ -234,3 +234,4 @@ The border-left shorthand property lets you to set the left border's width, styl
 Here is the syntax:
 
 border-left: width style color;
+border-left: 10px solid black;
