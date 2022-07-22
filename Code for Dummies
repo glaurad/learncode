@@ -176,3 +176,16 @@ Lightness is how bright a color appears, from 0%, or complete black, to 100%, co
 }
 }
 ex: background-color: hsl(240, 100%, 50%); blue
+
+You've learned a few ways to set flat colors in CSS, but you can also use a color transition, or gradient, on an element.
+
+A gradient is when one color transitions into another. The CSS linear-gradient function lets you control the direction of the transition along a line, and which colors are used.
+
+One thing to remember is that the linear-gradient function actually creates an image element, and is usually paired with the background property which can accept an image as a value. 
+The linear-gradient function is very flexible -- here is the basic syntax you'll use in this tutorial:
+
+linear-gradient(gradientDirection, color1, color2, ...);
+gradientDirection is the direction of the line used for the transition. color1 and color2 are color arguments, which are the colors that will be used in the transition itself. These can be any type of color, including color keywords, hex, rgb, or hsl.
+
+Now you'll apply a red-to-green gradient along a 90 degree line to the first marker.
+ex:  background: linear-gradient(90deg, rgb(255, 0, 0));
