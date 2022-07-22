@@ -163,3 +163,16 @@ You may already be familiar with decimal, or base 10 values, which go from 0 - 9
 With hex colors, 00 is 0% of that color, and FF is 100%. So #00FF00 translates to 0% red, 100% green, and 0% blue, and is the same as rgb(0, 255, 0).
 ex: 00FF00 - high intensity green
     007F00 - lower intensity green
+
+		The HSL color model, or hue, saturation, and lightness, is another way to represent colors.
+
+The CSS hsl function accepts 3 values: a number from 0 to 360 for hue, a percentage from 0 to 100 for saturation, and a percentage from 0 to 100 for lightness.
+
+If you imagine a color wheel, the hue red is at 0 degrees, green is at 120 degrees, and blue is at 240 degrees.
+
+Saturation is the intensity of a color from 0%, or gray, to 100% for pure color.
+
+Lightness is how bright a color appears, from 0%, or complete black, to 100%, complete white, with 50% being neutral.
+}
+}
+ex: background-color: hsl(240, 100%, 50%); blue
