@@ -235,3 +235,12 @@ Here is the syntax:
 
 border-left: width style color;
 border-left: 10px solid black;
+
+The last thing you'll do is add a slight shadow to each marker to make them look even more realistic.
+
+The box-shadow property lets you apply one or more shadows around an element. Here is basic syntax:
+
+box-shadow: offsetX offsetY color;
+ex: box-shadow: 5px 5px red;
+can add negatives to move to the other side:
+box-shadow: -5px -5px red;
